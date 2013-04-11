@@ -7,15 +7,13 @@ module.exports.getHomePage = function(callback) {
 			if(typeof(body) == "string") {
 				var js_object = JSON.parse(body);
 				var object_array = js_object.items;
+				var titles = new Array();
 
 				for(var i = 0; i < object_array.length; i++) {
-					callback(null, object_array[i].title);
+					titles.push(object_array[i].title);
 				}
+				callback(null, titles);
 			}
-
 		}
 	});
-
 };
-
-
