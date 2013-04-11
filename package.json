@@ -1,0 +1,9 @@
+{
+	"name": "hacker-news_topics",
+	"version": "0.0.1",
+	"dependencies": {
+
+		"request": "*"
+	}
+
+}
