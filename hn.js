@@ -18,6 +18,8 @@ module.exports.getHomePage = function(callback) {
 				}
 				callback(null, titles);
 			}
+		} else {
+			callback(new Error("No data received"));
 		}
 	});
 };
