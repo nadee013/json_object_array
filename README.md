@@ -1,4 +1,4 @@
-json_object_array [![Build Status](https://travis-ci.org/arunoda/node-usage.png?branch=master)](https://travis-ci.org/arunoda/node-usage)
+ hn home page as an array
 =================
 
 ###Creating Object array from json
@@ -11,7 +11,7 @@ json_object_array [![Build Status](https://travis-ci.org/arunoda/node-usage.png?
 ##Requirements
 
 * Nodejs v8.0.x install from [here](http://nodejs.org/download/)
-* request module version 2.16.x install from [here](https://github.com/mikeal/request)
+* install package.json by npm install in command line
 
 
 ##Run Command
